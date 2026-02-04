@@ -37,8 +37,7 @@ Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin
 Terminal veya Komut İstemi’ni (CMD) açın ve projeyi klonlayın
 (ya da ZIP olarak indirip klasöre girin):
 
-git clone https://github.com/KULLANICI_ADIN/qr-code-generator.git
-cd qr-code-generator
+git clone (https://github.com/cinardemirbas06-gif/qr-code-generator/tree/main)
 
 2️⃣ Gerekli Kütüphaneleri Yükleyin
 
