@@ -1,55 +1,77 @@
 📱 Python QR Code Generator
-Python ve qrcode kütüphanesi kullanılarak geliştirilmiş, metin URL veya herhangi bir veriyi saniyeler içinde QR Koda dönüştüren ve resim (.png) olarak kaydeden pratik bir araç.
 
-(Not: Projeyi çalıştırıp oluşan QR kodun veya terminalin görüntüsünü buraya eklemeyi unutmayın!)
+Python ve qrcode kütüphanesi kullanılarak geliştirilmiş, metin, URL veya herhangi bir veriyi saniyeler içinde QR Koda dönüştüren ve .png formatında kaydeden pratik bir araçtır.
+
+📌 Not: Projeyi çalıştırdıktan sonra oluşan QR kodun veya terminal çıktısının ekran görüntüsünü README’ye eklemeyi unutmayın.
 
 🚀 Özellikler
-Hızlı Dönüştürme: Saniyeler içinde veriyi işler.
 
-Özelleştirilebilir: Dosya adını kullanıcı belirler.
+⚡ Hızlı Dönüştürme
+Girilen veriyi saniyeler içinde QR koda çevirir.
 
-Yüksek Kalite: Okunabilirliği yüksek, standartlara uygun çıktı üretir.
+🎨 Özelleştirilebilir
+QR kod dosya adını kullanıcı belirler.
 
-Hata Yönetimi: Boş veri girişine karşı korumalıdır.
+🖨️ Yüksek Kalite Çıktı
+Okunabilirliği yüksek ve standartlara uygun QR kod üretir.
+
+🛡️ Hata Yönetimi
+Boş veri girişine karşı korumalıdır.
 
 🛠️ Kullanılan Teknolojiler
+
 Python 3.x
 
-qrcode Kütüphanesi: QR kod matrisini oluşturmak için.
+qrcode
+QR kod matrisini oluşturmak için.
 
-Pillow (PIL): Görüntü işleme ve kaydetme işlemleri için.
+Pillow (PIL)
+Görüntü işleme ve .png formatında kaydetme işlemleri için.
 
 💻 Kurulum ve Çalıştırma
+
 Projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin.
 
-1. Projeyi İndirin
-Terminal veya Komut İstemi'ni (CMD) açın ve projeyi klonlayın (veya ZIP olarak indirin):
+1️⃣ Projeyi İndirin
 
-Bash
+Terminal veya Komut İstemi’ni (CMD) açın ve projeyi klonlayın
+(ya da ZIP olarak indirip klasöre girin):
+
 git clone https://github.com/KULLANICI_ADIN/qr-code-generator.git
 cd qr-code-generator
-2. Gerekli Kütüphaneyi Yükleyin
-Bu projenin çalışması için qrcode ve görüntü işleme kütüphanesine ihtiyaç vardır:
 
-Bash
+2️⃣ Gerekli Kütüphaneleri Yükleyin
+
+Bu projenin çalışması için qrcode ve Pillow kütüphaneleri gereklidir:
+
 pip install qrcode[pil]
-3. Uygulamayı Başlatın
-Bash
+
+3️⃣ Uygulamayı Başlatın
 python qr_olusturucu.py
-📝 Kullanım Örneği
+
+📝 Kullanım
+
 Program çalıştığında sizden iki bilgi ister:
 
-Veri: QR kodun içine gömülecek link veya yazı.
+Veri
+QR kodun içine gömülecek link veya metin
 
-Dosya Adı: Resmin bilgisayara hangi isimle kaydedileceği.
+Dosya Adı
+Oluşturulacak resmin bilgisayara hangi isimle kaydedileceği
 
-Örnek Terminal Çıktısı:
-
-Plaintext
+📌 Örnek Terminal Çıktısı
 --- QR KOD OLUŞTURUCU ---
 QR Koda dönüştürülecek link veya metni girin: https://github.com/
 Resim adı ne olsun? (örn: benim_site): github_qr
 
 ✅ BAŞARILI! 'github_qr.png' oluşturuldu.
 Dosyanın olduğu klasöre bakabilirsin.
-Geliştirici: [ÇINAR DEMİRBAŞ] 
+
+🖼️ Örnek Çıktı
+
+📷 Buraya oluşturulan QR kodun ekran görüntüsünü ekleyebilirsiniz.
+(Örn: screenshots/github_qr.png)
+
+👨‍💻 Geliştirici
+
+Geliştirici: Senin Adın
